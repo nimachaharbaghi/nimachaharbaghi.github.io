@@ -23,7 +23,10 @@ permalink: /
   <a href="mailto:{{ member.email }}" target="_blank" style="display: inline-block;"><i class="fa fa-envelope-square fa-3x"></i></a>
 {% endif %}
 {% if member.cv %}
-  <a href="{{ site.baseurl }}/{{ member.cv }}" download style="display: inline-block;"><i class="ai ai-cv-square ai-3x"></i></a>
+  <a href="{{ site.baseurl }}/{{ member.cv }}" download style="display: inline-block;"
+     onclick="gtag('event', 'cv_download', { 'event_category': 'engagement', 'event_label': 'CV Button' });">
+     <i class="ai ai-cv-square ai-3x"></i>
+  </a>
 {% endif %}
 {% if member.gmail %}
   <a href="mailto:{{ member.gmail }}" target="_blank" style="display: inline-block;"><i class="fa fa-google-plus fa-3x"></i></a>
