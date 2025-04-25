@@ -1,0 +1,51 @@
+<div>
+  {% for member in site.data.pi %}
+  <div class="jumbotron">
+    <center>
+      <!-- Profile Image with Link to About Page -->
+      <a href="{{ site.url }}{{ site.baseurl }}/about">
+        <img src="{{ site.url }}{{ site.baseurl }}/images/{{ member.photo }}" width="60%" style="display:block; margin-left:auto; margin-right:auto; margin-bottom:5px;"/>
+      </a>
+      <h4>{{ member.name }}</h4>
+
+      <div style="margin-bottom:5px">
+        <!-- Email Icon -->
+        {% if member.email %}
+        <a href="mailto:{{ member.email }}" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a>
+        {% endif %}
+
+        <!-- CV Download Link -->
+        {% if member.cv %}
+        <a href="{{ site.baseurl }}/{{ member.cv }}" download><i class="ai ai-cv-square ai-3x"></i></a>
+        {% endif %}
+
+        <!-- LinkedIn Icon -->
+        {% if member.linkedin %}
+        <a href="{{ member.linkedin }}" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+        {% endif %}
+
+        {% if member.email %}<a href="mailto:{{ member.gmail }}" target="_blank"><i class="fa fa-google-plus fa-3x"></i></a> {% endif %}
+      </div>
+    </center>
+
+    <!-- Education Section -->
+    <ul style="overflow: hidden">
+      {% for education in member.education %}
+        <li>{{ education | replace: "-","&#8211;" }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
+
+<!-- News Section -->
+<div class="jumbotron">
+  <h4>News</h4>
+
+  {% for article in site.data.news limit:3 %}
+    <b>{{ article.date }}</b>
+    <p>{{ article.headline }}</p>
+  {% endfor %}
+  
+  <h5><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h5>
+</div>

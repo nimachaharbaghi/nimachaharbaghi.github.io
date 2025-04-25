@@ -1,0 +1,13 @@
+- name: Nima Chaharbaghi
+  photo: nima.png
+  info: Telecommunications Engineer
+  email: Nima.Chaharbaghi@studio.unibo.it
+  gmail: nimachaharbaghi@gmail.com
+  cv: assets/cv/cv.pdf
+  # Change the items in "education" you have (up to 6)
+  education:
+    [
+      "(2024-present) Master. Communications engineering, University of Bologna",
+      "(2019-2023) B.S. electrical engineering, Isfahan University of Technology",
+    ]
+  linkedin: https://www.linkedin.com/in/nima-chaharbaghi-2aa283125/
