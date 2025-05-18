@@ -14,9 +14,14 @@ permalink: /allnews.html
   <p><strong>{{ item.date }}</strong></p>
   <p>{{ item.content }}</p>
   {% if item.link %}
-      <a href="{{ item.link }}" class="btn btn-primary" target="_blank" rel="noopener">View Certificate</a>
+    <p>
+      <a href="{{ item.link }}" target="_blank" rel="noopener">
+        <button type="button">View Certificate</button>
+      </a>
+    </p>
   {% endif %}
 {% endfor %}
+
 
 
 
