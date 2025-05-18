@@ -3,4 +3,7 @@
   content: >
     On May 4, 2025, I took part in the Wings for Life World Run, a global charity event supporting spinal cord research. Running 18.91 km in Ravenna Darsena, I achieved 16th place locally and 29,823rd globally among male participants. This experience reflects my commitment to personal growth and contributing to meaningful causes beyond my academic pursuits. I'm proud to have received my official certificate of participation.
   link: https://www.wingsforlifeworldrun.com/api/v1/certificates/2025/1f0276e8bbca6f58b52a0a58a9feac02
-  tags: [personal development, community, running]
+  tags:
+    - personal development
+    - community
+    - running
