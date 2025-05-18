@@ -15,7 +15,7 @@ permalink: /allnews.html
   <p>{{ item.content }}</p>
   {% if item.link %}
     <p>
-      <a href="{{ item.link }}" class="btn btn-primary" target="_blank" rel="noopener">View Certificate</a>
+      <a href="{{ item.link }}">View Certificate</a>
     </p>
   {% endif %}
 {% endfor %}
