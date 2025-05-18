@@ -16,11 +16,14 @@ permalink: /allnews.html
   {% if item.link %}
     <p>
       <a href="{{ item.link }}" target="_blank" rel="noopener">
-        <button type="button">View Certificate</button>
+        <button type="button" style="padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: #007acc; color: white; border: none; border-radius: 5px;">
+          View Certificate
+        </button>
       </a>
     </p>
   {% endif %}
 {% endfor %}
+
 
 
 
