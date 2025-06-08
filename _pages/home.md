@@ -48,12 +48,6 @@ permalink: /
 </div>
 {% endfor %}
 
-<div class="jumbotron">
-  <h3>Want to know more?</h3>
-  <p>Learn more about my academic journey, interests, and research focus.</p>
-  <a class="btn btn-primary btn-lg" href="about/" role="button">Go to About</a>
-</div>
-
 
 {% if site.data.research %}
 <div class="jumbotron">
@@ -89,3 +83,9 @@ permalink: /
   </ul>
 </div>
 {% endif %}
+
+<div class="jumbotron">
+  <h3>Want to know more?</h3>
+  <p>Learn more about my academic journey, interests, and research focus.</p>
+  <a class="btn btn-primary btn-lg" href="about/" role="button">Go to About</a>
+</div>
