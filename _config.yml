@@ -22,7 +22,7 @@ location: >
   Paris
 
 contact: >
-  <a href="nima.chaharbaghi@studio.unibo.it" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Nima via email</a> <br/>
+  <a href="mailto:nima.chaharbaghi@studio.unibo.it" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Nima via email</a> <br/>
 
 # Pages shown in navbar
 nav_pages:
