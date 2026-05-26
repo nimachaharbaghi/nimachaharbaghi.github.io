@@ -4,15 +4,10 @@ HEADER:
 PROJECTS:
   - title: "5G Localization & Digital Twin"
     category: "Research"
-    image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600"
-    url: "https://github.com/nimachaharbaghi"
+    image: "config/assets/projects/5g-localization.png"
+    url: "https://gitlab.eurecom.fr/oai/cn5g/oai-cn5g-lmf/-/tree/fix-trp-units"
 
-  - title: "OpenAirInterface 5G Testbed"
+  - title: "AI-Based Resource Prediction for 5G"
     category: "5G Prototyping"
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600"
-    url: "https://github.com/nimachaharbaghi"
-
-  - title: "ML for Wireless Channel Estimation"
-    category: "Machine Learning"
-    image: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600"
-    url: "https://github.com/nimachaharbaghi"
+    image: "config/assets/projects/ai-resource-prediction.png"
+    url: "https://github.com/nimachaharbaghi/kindopen5gs"
