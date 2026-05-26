@@ -4,10 +4,11 @@ HEADER:
   label: "Show Contacts"
 
 USER:
-  role: "Master's Thesis Researcher – Digital Twin & 5G Localization"
+  role: "Master Student"
   name: "Nima Chaharbaghi"
   username: "nimachaharbaghi"
   avatar: "config/assets/avatars/my-avatar.png"
+  cv: "config/assets/cv/Resume.pdf"
 
 INFO:
   - label: "Email"
