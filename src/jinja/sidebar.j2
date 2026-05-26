@@ -37,13 +37,13 @@
         </a>
       </li>
       {% endfor %}
+      {% if profile.USER.cv %}
+      <li class="social-item">
+        <a href="{{profile.USER.cv}}" download class="social-link" title="Download CV">
+          <ion-icon name="download-outline"></ion-icon>
+        </a>
+      </li>
+      {% endif %}
     </ul>
-    {% if profile.USER.cv %}
-    <div class="separator"></div>
-    <a href="{{profile.USER.cv}}" download class="cv-download-btn">
-      <ion-icon name="download-outline"></ion-icon>
-      <span>Download CV</span>
-    </a>
-    {% endif %}
   </div>
 </aside>
