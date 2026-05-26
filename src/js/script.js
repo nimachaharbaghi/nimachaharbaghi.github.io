@@ -136,6 +136,20 @@ for (let i = 0; i < formInputs.length; i++) {
 
 
 
+// contact form submit — open mailto with subject and body
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+  const recipient = form.dataset.recipient;
+  const name    = form.querySelector('[name="fullname"]').value;
+  const email   = form.querySelector('[name="email"]').value;
+  const message = form.querySelector('[name="message"]').value;
+  const subject = encodeURIComponent("Message from " + name);
+  const body    = encodeURIComponent("From: " + name + " <" + email + ">\n\n" + message);
+  window.location.href = "mailto:" + recipient + "?subject=" + subject + "&body=" + body;
+});
+
+
+
 // page navigation variables
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
