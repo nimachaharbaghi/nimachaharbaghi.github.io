@@ -3,26 +3,26 @@ HEADER:
 
 PRESENTATION:
   description: |
-    I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+    I'm a Master's Thesis Researcher specializing in Digital Twin and 5G Localization at EURECOM, Sophia Antipolis, pursuing a double degree between ISEP Paris and the University of Bologna.
 
-    My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+    My research focuses on 5G network prototyping, AI-driven localization, and digital twin technologies. I enjoy bridging the gap between theoretical wireless communication and practical system implementation, working with real 5G testbeds such as OpenAirInterface and srsRAN. I am passionate about applying machine learning to solve challenging problems in next-generation wireless networks.
 
 DOING:
   enabled: true
-  label: "What I'm doing"
+  label: "Research Interests"
   items:
-    - title: "Mobile Apps"
-      icon: "config/assets/icons/mobile.svg"
-      description: "Professional development of applications for iOS and Android."
-    - title: "Scripting"
-      icon: "config/assets/icons/code.svg"
-      description: "Automation and task scripting using Python to enhance efficiency and productivity."
-    - title: "UI/UX Designing"
+    - title: "5G Localization & Digital Twins"
       icon: "config/assets/icons/compass.svg"
-      description: "Intuitive and visually appealing user interfaces and user experiences."
-    - title: "Web Development"
+      description: "Developing AI-based positioning algorithms and digital twin frameworks for 5G networks."
+    - title: "5G Prototyping"
       icon: "config/assets/icons/laptop-code.svg"
-      description: "High-quality development of sites at the professional level."
+      description: "Hands-on experimentation with OpenAirInterface and srsRAN on real hardware for 5G core and RAN testing."
+    - title: "ML for Wireless"
+      icon: "config/assets/icons/ai.svg"
+      description: "Applying deep learning and signal processing techniques to wireless channel estimation and resource management."
+    - title: "SDN & Virtualization"
+      icon: "config/assets/icons/code.svg"
+      description: "Exploring software-defined networking and cloud-native infrastructure for next-generation mobile networks."
 
 SKILLS:
   enabled: true
@@ -30,16 +30,16 @@ SKILLS:
   items:
     - title: "Fast Learner"
       icon: "config/assets/icons/bolt.svg"
-      description: "I have the ability to quickly acquire new knowledge and adapt to changing technological environments."
+      description: "Quickly acquire new knowledge and adapt to rapidly evolving telecommunications technologies."
     - title: "Teamwork"
       icon: "config/assets/icons/user.svg"
-      description: "I collaborate effectively in multidisciplinary projects and communicate clearly with team members."
+      description: "Collaborate effectively in international, multidisciplinary research and engineering teams."
     - title: "Problem Solving"
       icon: "config/assets/icons/gear.svg"
-      description: "I am creative and efficient in identifying and solving technical problems."
-    - title: "Effective Communication"
+      description: "Creative and systematic approach to debugging complex wireless systems and research challenges."
+    - title: "Communication"
       icon: "config/assets/icons/comment.svg"
-      description: "I have the skill to convey ideas clearly and concisely, both technically and non-technically."
+      description: "Ability to present technical findings clearly to both academic and non-specialist audiences."
 
 TECHNOLOGIES:
   enabled: true
@@ -47,25 +47,17 @@ TECHNOLOGIES:
   items:
     - title: "Python"
       icon: "config/assets/icons/python.svg"
-    - title: "Flutter"
-      icon: "config/assets/icons/flutter.svg"
-    - title: "Git"
-      icon: "config/assets/icons/git.svg"
-    - title: "Figma"
-      icon: "config/assets/icons/figma.svg"
-    - title: "Firebase"
-      icon: "config/assets/icons/firebase.svg"
-    - title: "Pandas"
-      icon: "config/assets/icons/pandas.svg"
-    - title: "MongoDB"
-      icon: "config/assets/icons/mongodb.svg"
-    - title: "Dart"
-      icon: "config/assets/icons/dart.svg"
-    - title: "HTML"
-      icon: "config/assets/icons/html.svg"
-    - title: "AI"
-      icon: "config/assets/icons/ai.svg"
-    - title: "Jupyter"
-      icon: "config/assets/icons/jupyter.svg"
+    - title: "MATLAB"
+      icon: "config/assets/icons/numpy.svg"
     - title: "Linux"
       icon: "config/assets/icons/linux.svg"
+    - title: "Git"
+      icon: "config/assets/icons/git.svg"
+    - title: "Jupyter"
+      icon: "config/assets/icons/jupyter.svg"
+    - title: "AI/ML"
+      icon: "config/assets/icons/ai.svg"
+    - title: "C++"
+      icon: "config/assets/icons/code.svg"
+    - title: "HTML"
+      icon: "config/assets/icons/html.svg"

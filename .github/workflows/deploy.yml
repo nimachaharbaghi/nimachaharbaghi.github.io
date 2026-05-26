@@ -1,23 +1,15 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
-
 name: Deploy
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
+  workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+  contents: write
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -26,38 +18,28 @@ jobs:
       - name: Install Poetry
         shell: bash
         run: pipx install poetry
-      
+
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
           cache: 'poetry'
-      
+
       - name: Install dependencies
         run: poetry install --with=dev
-      
-      - name: Lint with Ruff
-        run: poetry run ruff check --output-format=github .
-      
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v4
-      
+
       - name: Build with Python Jinja
         run: poetry run python main.py
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: .
-  
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+
+      - name: Deploy to gh-pages branch
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          cp -r . /tmp/site
+          rm -rf /tmp/site/.git /tmp/site/.github
+          git checkout --orphan gh-pages
+          git rm -rf . 2>/dev/null || true
+          cp -r /tmp/site/. .
+          git add .
+          git commit -m "Deploy site"
+          git push "https://x-access-token:${{ secrets.DEPLOY_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages --force
