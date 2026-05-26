@@ -40,6 +40,6 @@ jobs:
           git checkout --orphan gh-pages
           git rm -rf . 2>/dev/null || true
           cp -r /tmp/site/. .
-          git add .
+          git add -f .
           git commit -m "Deploy site"
           git push "https://x-access-token:${{ secrets.DEPLOY_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages --force
