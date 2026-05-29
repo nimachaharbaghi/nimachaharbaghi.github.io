@@ -11,3 +11,8 @@ PROJECTS:
     category: "5G Prototyping"
     image: "config/assets/projects/ai-resource-prediction.png"
     url: "https://github.com/nimachaharbaghi/kindopen5gs"
+
+  - title: "Smart Presence Detection System"
+    category: "Embedded & IoT"
+    image: "config/assets/projects/presence-detection.png"
+    url: "https://github.com/nimachaharbaghi/presencedetection"
