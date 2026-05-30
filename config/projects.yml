@@ -16,3 +16,8 @@ PROJECTS:
     category: "Embedded & IoT"
     image: "config/assets/projects/presence-detection.png"
     url: "https://github.com/nimachaharbaghi/presencedetection"
+
+  - title: "Smart Home Utility Monitor"
+    category: "Embedded & IoT"
+    image: "config/assets/projects/smarthome-dashboard.png"
+    url: "https://github.com/nimachaharbaghi/smarthome"
