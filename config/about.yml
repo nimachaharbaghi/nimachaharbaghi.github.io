@@ -1,0 +1,63 @@
+HEADER:
+  label: "About me"
+
+PRESENTATION:
+  description: |
+    I'm a Master's Thesis Researcher specializing in Digital Twin and 5G Localization at EURECOM, Sophia Antipolis, pursuing a double degree between ISEP Paris and the University of Bologna.
+
+    My research focuses on 5G network prototyping, AI-driven localization, and digital twin technologies. I enjoy bridging the gap between theoretical wireless communication and practical system implementation, working with real 5G testbeds such as OpenAirInterface and srsRAN. I am passionate about applying machine learning to solve challenging problems in next-generation wireless networks.
+
+DOING:
+  enabled: true
+  label: "Research Interests"
+  items:
+    - title: "5G Localization & Digital Twins"
+      icon: "config/assets/icons/compass.svg"
+      description: "Developing AI-based positioning algorithms and digital twin frameworks for 5G networks."
+    - title: "5G Prototyping"
+      icon: "config/assets/icons/laptop-code.svg"
+      description: "Hands-on experimentation with OpenAirInterface and srsRAN on real hardware for 5G core and RAN testing."
+    - title: "ML for Wireless"
+      icon: "config/assets/icons/ai.svg"
+      description: "Applying deep learning and signal processing techniques to wireless channel estimation and resource management."
+    - title: "SDN & Virtualization"
+      icon: "config/assets/icons/code.svg"
+      description: "Exploring software-defined networking and cloud-native infrastructure for next-generation mobile networks."
+
+SKILLS:
+  enabled: true
+  label: "Soft Skills"
+  items:
+    - title: "Fast Learner"
+      icon: "config/assets/icons/bolt.svg"
+      description: "Quickly acquire new knowledge and adapt to rapidly evolving telecommunications technologies."
+    - title: "Teamwork"
+      icon: "config/assets/icons/user.svg"
+      description: "Collaborate effectively in international, multidisciplinary research and engineering teams."
+    - title: "Problem Solving"
+      icon: "config/assets/icons/gear.svg"
+      description: "Creative and systematic approach to debugging complex wireless systems and research challenges."
+    - title: "Communication"
+      icon: "config/assets/icons/comment.svg"
+      description: "Ability to present technical findings clearly to both academic and non-specialist audiences."
+
+TECHNOLOGIES:
+  enabled: true
+  label: "Tech Experience"
+  items:
+    - title: "Python"
+      icon: "config/assets/icons/python.svg"
+    - title: "MATLAB"
+      icon: "config/assets/icons/numpy.svg"
+    - title: "Linux"
+      icon: "config/assets/icons/linux.svg"
+    - title: "Git"
+      icon: "config/assets/icons/git.svg"
+    - title: "Jupyter"
+      icon: "config/assets/icons/jupyter.svg"
+    - title: "AI/ML"
+      icon: "config/assets/icons/ai.svg"
+    - title: "C++"
+      icon: "config/assets/icons/code.svg"
+    - title: "HTML"
+      icon: "config/assets/icons/html.svg"

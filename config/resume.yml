@@ -1,0 +1,60 @@
+HEADER:
+  label: "Resume"
+
+EDUCATION:
+  enabled: true
+  label: "Education"
+  items:
+    - period: "2025 — 2026"
+      institution: "ISEP Paris"
+      description: "M.Eng. Wireless Telecommunication and IoT Systems (Double Degree). Specializing in 5G networks, IoT systems, and advanced wireless communication technologies."
+    - period: "2024 — 2026"
+      institution: "University of Bologna"
+      description: "M.Sc. Telecommunications Engineering. Research focus on 5G localization, digital twins, and machine learning for wireless communications."
+    - period: "2019 — 2023"
+      institution: "Isfahan University of Technology"
+      description: "B.Sc. Electrical Engineering. Solid foundation in signal processing, communications theory, and embedded systems."
+
+EXPERIENCE:
+  enabled: true
+  label: "Experience"
+  items:
+    - period: "2025 — Present"
+      position: "Master's Thesis Researcher – EURECOM, Sophia Antipolis"
+      description: "Conducting research on Digital Twin and 5G Localization. Working with real 5G testbeds (OpenAirInterface, srsRAN) to prototype and evaluate AI-driven positioning algorithms and digital twin frameworks for next-generation mobile networks."
+
+LANGUAGES:
+  enabled: true
+  display_progress_bars: true
+  display_percentage_values: false
+  label: "Languages"
+  items:
+    - language: "Persian"
+      proficiency: "100%"
+    - language: "English"
+      proficiency: "65%"
+    - language: "French"
+      proficiency: "20%"
+
+SKILLS:
+  enabled: true
+  display_progress_bars: true
+  display_percentage_values: false
+  label: "Technical Skills"
+  items:
+    - skill: "Python"
+      proficiency: "90%"
+    - skill: "MATLAB"
+      proficiency: "85%"
+    - skill: "C++"
+      proficiency: "70%"
+    - skill: "LaTeX"
+      proficiency: "85%"
+    - skill: "Linux (LPIC)"
+      proficiency: "75%"
+    - skill: "OpenAirInterface / srsRAN"
+      proficiency: "70%"
+    - skill: "CCNA Networking"
+      proficiency: "65%"
+    - skill: "Git & GitHub"
+      proficiency: "80%"

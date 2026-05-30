@@ -1,0 +1,30 @@
+# We are using the ionicons icon set https://ionic.io/ionicons
+
+HEADER:
+  label: "Show Contacts"
+
+USER:
+  role: "Master Student"
+  name: "Nima Chaharbaghi"
+  username: "nimachaharbaghi"
+  avatar: "config/assets/avatars/my-avatar.png"
+  cv: "config/assets/cv/Resume.pdf"
+
+INFO:
+  - label: "Email"
+    value: "nima.chaharbaghi@studio.unibo.it"
+    icon: "mail-outline"
+  - label: "Location"
+    value: "Paris, France"
+    icon: "location-outline"
+  - label: "Affiliation"
+    value: "University of Bologna"
+    icon: "school-outline"
+
+SOCIAL:
+  - icon: "logo-linkedin"
+    url: "https://www.linkedin.com/in/nima-chaharbaghi-2aa283125/"
+  - icon: "logo-github"
+    url: "https://github.com/nimachaharbaghi"
+  - icon: "mail-outline"
+    url: "mailto:nimachaharbaghi@gmail.com"
